@@ -1,0 +1,76 @@
+body{
+    background-color: coral;
+    margin: 0%;
+}
+.nav{
+    z-index: 100;
+    background-color: darkgrey;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    top: 0%;
+}
+
+.nav ul li{
+    left: 100px;
+    display: inline-block;
+    margin-top: -200px;
+    margin-right: 10px;
+}
+
+.nav a{
+    text-decoration: black;
+    color: black;
+    padding: 4px;
+}
+
+.nav a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.anime{
+ background-color: black;
+ margin-right: 10px;
+ margin-left: 10px;
+ width: 60%;
+ margin: auto;
+
+}
+ img{
+     height: 300px;
+     width: 220px;
+     padding: 5px;
+     border-radius: 40px;
+    }
+    
+    /* Position Relative */
+    
+    .gambar ul{
+        margin-top: 50px;
+        list-style: none;
+        padding: 1px;
+        background-color: grey;
+        color: white;
+        overflow: hidden;
+    }
+
+    .gambar li{
+        overflow: hidden;
+        display: inline;
+    }
+    
+.gambar li a{
+    display: inline-block;
+    color: white;
+}
+.gambar{
+    position: absolute;
+    
+}
+
+.gambar img:hover{
+    transform: scale(1.2);
+}
